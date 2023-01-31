@@ -19,7 +19,7 @@ class HelloView extends StatelessWidget {
           TextButton(
             key: const Key('router-button'),
             onPressed: () {
-              // TODO: Tuliskan code untuk melakukan routing ke halaman RetrieveDataView
+              Get.toNamed(Routes.retrieveData);
             },
             child: const Text('Level Selanjutnya',
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16, color: Colors.white)
